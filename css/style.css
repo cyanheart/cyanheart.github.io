@@ -1337,8 +1337,10 @@ input[type="text"] {
   opacity: 0;
 }
 
-.d-flex {
-  display: flex;
+@media screen and (min-width: 992px) {
+  .d-flex {
+    display: flex;
+  }
 }
 
 .justify-content-center {
